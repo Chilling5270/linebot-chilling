@@ -19,10 +19,10 @@ from linebot.v3.webhooks import (
     TextMessageContent
 )
 
-app = Flask(__name__)
+app = Flask(__奇林國際租賃__)
 
-configuration = Configuration(access_token='YOUR_CHANNEL_ACCESS_TOKEN')
-handler = WebhookHandler('YOUR_CHANNEL_SECRET')
+configuration = Configuration(access_token='1ce0in2/CVCOqMHGqRbasa1L49WsBXPlrOtUwh9ORzgC8snTfV+BUhxbEyRC+vtqATwC9mjfSdVCJGza3ybZOl5w2d7BT933L9ZX+TpGX/IZttnh3c+IuIPwCMFa4v76S5XfyjOGRsvkRwovbsFEZwdB04t89/1O/w1cDnyilFU=')
+handler = WebhookHandler('babcbf269e16c914bfdf979ab1d652ae')
 
 
 @app.route("/callback", methods=['POST'])
